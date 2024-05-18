@@ -16,9 +16,3 @@ Check out the live demo [here](https://simple-login-form-khaki.vercel.app/).
 
 - `index.html`: Contains the HTML structure of the login form.
 - `style.css`: Contains the CSS styles that define the look and feel of the form.
-
-## Usage
-
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/yourusername/animated-login-form.git
