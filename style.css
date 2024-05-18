@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+ 
+body {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form-cntnr {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background-color: #B4B4B8;
+    color: #fff;
+    width: 25rem;
+    border-radius: 20px;
+    padding: 5rem 2rem 5rem 2rem;
+    border: 2px solid #7f7faf;
+}
+ .login-title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+ }
+ 
+ .username,
+ .userpassword{
+    text-align: center;
+    border: 2px solid #f6eec9;
+    margin: 1rem;
+    color: white;
+    background-color: #C7C8CC ;
+    padding: 1rem 2rem;
+    border-color: #d9d9dc;
+    border-radius: 1rem;
+    width: 15rem;
+    font-size: 1.2rem
+    outline: none;
+    transition: all .2s ease_in-out;
+ }
+ .username:focus,
+ .userpassword:focus{
+    border-color: #7f7faf;
+    width: 17rem;
+    animation: colorchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation: infinite;
+ }
+
+.loginbtn{
+    background-color: #E3E1D9;
+    font-size: 1rem;
+    width: 10rem;
+    height: 2.5rem;
+    transform: scale(100%);
+    border: 3px solid #C7C8CC;
+    border-radius: 1rem;
+    transition: ease-in-out;
+}
+.loginbtn:hover{
+    transform: scale(107%);
+    background: #a2a4ae;
+    border: 2px solid #F2EFE5;
+}
